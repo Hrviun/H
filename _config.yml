@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: Hrviun
-description: Hrviun博客·
+title: HRVIUN
+description: HRVIUN
 
-author: Hrviun
-footerText: 'Hrviun'
+author: Srijeahqo
+footerText: Hrviun
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -32,7 +32,10 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-
+  - title: 功能
+    url: /pages/links.html
+  - title: 关于
+    url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
@@ -47,3 +50,8 @@ extMath: false
 # 显示访问量统计，由不蒜子提供服务
 extCount: false
 
+# 友情链接
+links:
+  # - title: 名
+  #   url: 链接
+  
