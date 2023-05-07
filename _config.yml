@@ -19,7 +19,8 @@ exclude: ['CNAME', 'README.md', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blo
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
 domainUrl: 'https://h.hrviun.eu.org'
 baseurl: ''
-
+# 吐个槽地址，会在chat页面中重定向到该地址
+tucaoUrl: https://www.cnblogs.com/hrviun/p/17379727.html
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
@@ -34,18 +35,18 @@ menu:
   - title: 功能
     url: /pages/links.html
   - title: 留言
-	url: https://www.cnblogs.com/hrviun/p/17379727.html
+      url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: false
+extClickEffect: true
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: false
+extAdsense: true
 #math
-extMathjax: false
+extMathjax: true
 
 # 显示访问量统计，由不蒜子提供服务
 extCount: true
