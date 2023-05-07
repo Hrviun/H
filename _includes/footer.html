@@ -1,15 +1,18 @@
 <footer class="footer">
-  <span>{{ site.footerText }}</span>
- 
+	<span>{{ site.footerText }}</span>
 
-  {%- if site.extCount %}
-    <span>总访问量</span>
-    <span id="busuanzi_value_site_pv"></span>
-  {% endif %}
-  <div class="footer-btn theme-toggler hide">
-    <i class="svg-icon icon-theme-light"></i>
-  </div>
-  <div class="footer-btn to-top">
-    <i class="svg-icon icon-arrow-top"></i>
-  </div>
+
+	{%- if site.extCount %}
+
+	<span id="busuanzi_value_site_pv"></span> views.
+	您是xxx的第<span id="busuanzi_value_site_uv"></span>个小伙伴
+	<span id="busuanzi_value_page_pv"></span> Hits
+
+	{% endif %}
+	<div class="footer-btn theme-toggler hide">
+		<i class="svg-icon icon-theme-light"></i>
+	</div>
+	<div class="footer-btn to-top">
+		<i class="svg-icon icon-arrow-top"></i>
+	</div>
 </footer>
