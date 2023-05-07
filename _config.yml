@@ -49,13 +49,13 @@ extMathjax: true
 extCount: true
 #评论
 
-  # gitalk: true
-  # gitalk_clientID: '11d451753b22bbf19b77'
-  # gitalk_Secret: 'ccffc2a474552be7e18ae21b813106f5b499611c'
-  # gitalk_repo: '用户名.github.io'
-  # gitalk_owner: '用户名'
-  # gitalk_admin: '用户名'
-  # distractionFreeMode: true
+  gitalk: true
+  gitalk_clientID: '11d451753b22bbf19b77'
+  gitalk_Secret: 'ccffc2a474552be7e18ae21b813106f5b499611c'
+  gitalk_repo: 'blog'
+  gitalk_owner: 'Hrviun'
+  gitalk_admin: 'Hrviun'
+  distractionFreeMode: true
 # 功能
 links:
   # - title: 名
