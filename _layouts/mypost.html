@@ -25,32 +25,13 @@
 		</div>
 		{% include footer.html -%}
 		{% include script.html -%}
-		<!-- Link Gitalk 的支持文件 -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-		<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-		<!-- Gitalk 评论 start  -->
-		<div id="gitalk-container"></div>
 
-		<script type="text/javascript">
-			var title = location.pathname.substr(0, 50); //截取路径的前50个字符作为标识符
-			var gitalk = new Gitalk({
 
-				proxy: 'https://proxy',
-			
-			// gitalk的主要参数
-			clientID: '11d451753b22bbf19b77',
-				clientSecret: 'ccffc2a474552be7e18ae21b813106f5b499611c',
-				repo: 'blog',
-				owner: 'Hrviun',
-				admin: ['Hrviun'],
-				id: title, //因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
-				distractionFreeMode: true
-			});
-			gitalk.render('gitalk-container');
+		<script src="https://utteranc.es/client.js" repo="Hrviun" issue-term="title" theme="github-dark"
+			crossorigin="anonymous" async>
 		</script>
 
-		<!-- Gitalk end -->
 
-		</script>
+
 	</body>
 </html>
