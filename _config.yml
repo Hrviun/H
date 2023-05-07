@@ -44,9 +44,9 @@ extClickEffect: true
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: true
+extAdsense: false
 #math
-extMathjax: true
+extMathjax: false
 
 # 显示访问量统计，由不蒜子提供服务
 extCount: true
