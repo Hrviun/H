@@ -47,7 +47,15 @@ extMathjax: true
 
 # 显示访问量统计，由不蒜子提供服务
 extCount: true
-
+#评论
+comments:
+  gitalk: true
+  gitalk_clientID: '11d451753b22bbf19b77'
+  gitalk_Secret: 'ccffc2a474552be7e18ae21b813106f5b499611c'
+  gitalk_repo: '用户名.github.io'
+  gitalk_owner: '用户名'
+  gitalk_admin: '用户名'
+  distractionFreeMode: true
 # 功能
 links:
   # - title: 名
