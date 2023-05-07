@@ -20,12 +20,6 @@ exclude: ['CNAME', 'README.md', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blo
 domainUrl: 'https://h.hrviun.eu.org'
 baseurl: ''
 
-#评论
-gitalk:
-	owner: Hrviun
-	repo: blog
-	clientID: 11d451753b22bbf19b77
-	clientSercret: c9b9bb7d65c41289fc364dad83f3ec0a8ea43ede
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
