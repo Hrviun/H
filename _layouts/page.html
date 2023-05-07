@@ -8,19 +8,7 @@
 
 {% include script.html -%}
 
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'Hrviun',
-    repo: 'blog',
-    oauth: {
-        client_id: '11d451753b22bbf19b77',
-        client_secret: 'ccffc2a474552be7e18ae21b813106f5b499611c',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
+{% include post.html -%}
+
 </body>
 </html>
