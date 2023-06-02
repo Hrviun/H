@@ -51,20 +51,7 @@ extMath: false
 
 # 显示访问量统计，由不蒜子提供服务
 extCount: true
-# 后台
-collections:
-  posts:
-    output: true
-    sidebar_label: News
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "pages"
 # 功能
 links:
   # - title: 名
