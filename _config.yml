@@ -32,8 +32,6 @@ menu:
     url: /pages/search.html
   - title: 功能
     url: /pages/links.html
-  - title: 留言
-    url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
 
