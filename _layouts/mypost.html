@@ -23,6 +23,9 @@
 			</div>
 			{% endif %}
 		</div>
+		{%- if site.comments.provider -%}
+		  {%- include my-comment.html -%}
+		{%- endif -%}
 		{% include footer.html -%}
 		{% include script.html -%}
 
