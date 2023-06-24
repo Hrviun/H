@@ -48,19 +48,6 @@ extMath: false
 # 显示访问量统计，由不蒜子提供服务
 extCount: true
 
-# Set which comment system to use
-comments:
-  # 'disqus' or 'utterances' are available
-  provider:            utterances
-
-# You must install utterances github app before use.(https://github.com/apps/utterances)
-# Make sure all variables are set properly. Check below link for detail.
-# https://utteranc.es/
-utterances:
-  repo:                "Hrviun/s"
-  issue-term:          "og:title"
-  theme:               "github-dark-orange"
-  label:               "Comments"
 
 
 # 功能
