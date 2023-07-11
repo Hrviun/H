@@ -36,7 +36,14 @@ menu:
   - title: 关于
     url: /pages/about.html
 
-
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "pages"
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
 
