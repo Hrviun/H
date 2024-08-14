@@ -1,0 +1,10 @@
+---
+layout: mypost
+title: termux运行python
+categories: [教程]
+extMath: true
+---
+
+#termux运行python
+
+点击链接查看腾讯频道帖子【termux运行python kali（termux上的kali）cmd也差不多使用】：https://pd.qq.com/s/hkj1qffmm?shareSource=5
