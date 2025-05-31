@@ -38,7 +38,7 @@ menu:
   - title: 言上工作室
     url: /pages/team.html
 
-jekyll_admin: hrviun
+jekyll_admin:
   hidden_links:
     - posts
     - pages
