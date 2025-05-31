@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrviun-言上工作室</title>
+    <link rel="shortcut icon" href="./img/llll.png" type="image/x-icon">
+    <link rel="stylesheet" href="./static/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Hrviun-言上</h1>
+            <h2>我们的工作室成员</h2>
+            <div class="header-decoration"></div>
+            <p></p>
+        </header>
+
+        <div class="team-container" id="teamContainer"></div>
+    </div>
+
+    <!-- 弹窗式成员详情 -->
+    <div class="popup" id="memberPopup">
+        <div class="popup-content">
+            <div class="popup-close" id="popupClose">×</div>
+            <div class="popup-header">
+                <h2 id="popupName"></h2>
+                <div id="popupPosition"></div>
+            </div>
+            <div class="popup-body">
+                <div class="popup-detail">
+                    <div class="popup-image">
+                        <img id="popupImage" src="" alt="Member Photo">
+                    </div>
+                    <div class="popup-bio">
+                        <h3>个人简介</h3>
+                        <p id="popupBio"></p>
+
+                        <div class="popup-skills">
+                            <h4>专业技能</h4>
+                            <div class="skills-list" id="popupSkills"></div>
+                        </div>
+
+                        <div class="popup-achievements">
+                            <h4>成就</h4>
+                            <ul class="achievement-list" id="popupAchievements"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <script src="./static/js/script.js"></script>
+</body>
+
+</html>
