@@ -36,7 +36,7 @@ menu:
   - title: 关于
     url: /pages/about.html
   - title: 言上工作室
-    url: /pages/team.html
+    url: 
 
 jekyll_admin:
   hidden_links:
