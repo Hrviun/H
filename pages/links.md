@@ -3,10 +3,6 @@ layout: mypost
 title: 功能
 ---
 
-
-
-
-
 <ul>
   {%- for link in site.links %}
   <li>

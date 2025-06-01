@@ -36,7 +36,7 @@ menu:
   - title: 关于
     url: /pages/about.html
 
-jekyll_admin:
+:
   hidden_links:
     - posts
     - pages
@@ -49,7 +49,7 @@ extClickEffect: true
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
-extAdsense: true
+extAdsense: flase
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: false
@@ -62,5 +62,3 @@ extCount: true
 links:
   # - title: 名
   #   url: 链接
- - title: HRVIUN-留言
-   url: https://gist.github.com/Hrviun/d859934222b7fd06bee9e1fbcd1b6c5a
