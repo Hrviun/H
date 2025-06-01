@@ -45,7 +45,7 @@ menu:
     - configuration
   homepage: "pages"
 # 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: false
+extClickEffect: true
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
