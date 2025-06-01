@@ -36,7 +36,8 @@ menu:
   - title: 关于
     url: /pages/about.html
 
-:
+jekyll_admin:
+  
   hidden_links:
     - posts
     - pages
@@ -44,6 +45,10 @@ menu:
     - datafiles
     - configuration
   homepage: "pages"
+  collections:
+  posts:
+    output: true
+    sidebar_label: News
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
 
