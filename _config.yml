@@ -31,8 +31,8 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-  - title: 功能
-    url: /pages/links.html
+  - title: 讨论
+    url: /pages/link.html
   - title: 关于
     url: /pages/about.html
 
