@@ -1,8 +1,9 @@
 ---
 layout: mypost
-title: 功能
+title: 讨论
 ---
 
+欢迎讨论
 
 
 
