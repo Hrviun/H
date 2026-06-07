@@ -32,7 +32,7 @@ menu:
   - title: 搜索
     url: /pages/search.html
   - title: 讨论
-    url: /pages/link.html
+    url: /pages/links.html
   - title: 关于
     url: /pages/about.html
 
